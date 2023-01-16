@@ -1,7 +1,14 @@
 {
-  "name": "translate_app",
+  "name": "@sa-daiki/next-js-setup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sa-daiki/setup-next.js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "run-p dev:*",
     "dev:next": "next dev",
